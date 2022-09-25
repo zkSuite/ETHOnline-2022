@@ -1,0 +1,41 @@
+{
+  "name": "zkforms-frontend",
+  "private": false,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.4.4",
+    "bignumber.js": "^9.1.0",
+    "ethers": "^5.0.0",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.1.0",
+    "react-drag-drop-files": "^2.3.7",
+    "react-nestable": "^2.0.0",
+    "react-select": "^5.4.0",
+    "react-toastify": "^9.0.7",
+    "react-tooltip": "^4.2.21",
+    "sequence-rainbowkit-wallet": "^1.0.3",
+    "snarkjs": "^0.4.24",
+    "wagmi": "^0.5.3",
+    "web3.storage": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-csv": "^1.1.3",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6",
+    "typescript": "^4.7.2"
+  }
+}
